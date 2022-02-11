@@ -72,6 +72,7 @@ function runGameOne () {
 }
 function runGameTwo () {
     scene.setBackgroundColor(1)
+    mySprite = 0
 }
 let mySprite: Sprite = null
 let cursorOne: Sprite = null
