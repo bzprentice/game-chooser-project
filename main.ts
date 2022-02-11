@@ -46,15 +46,36 @@ sprites.onOverlap(SpriteKind.mouseMain, SpriteKind.gameHub, function (sprite, ot
 function runGameFour () {
 	
 }
+/**
+ * Braedan Prentice, Martin Clements, Owen Brast
+ */
+/**
+ * On start, our game library pops up. This stores 4 games that we have created and allows you to click in between them. Playing whichever you would enjoy!
+ */
 function runGameOne () {
-	
+    mySprite = sprites.create(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, SpriteKind.Player)
 }
 function runGameTwo () {
 	
 }
-// On start, our game library pops up. This stores 4 games that we have created and allows you to click in between them. Playing whichever you would enjoy!
-// 
-// Braedan Prentice, Martin Clements, Owen Brast
+let mySprite: Sprite = null
 let cursorOne: Sprite = null
 let gameFour: Sprite = null
 let gameThree: Sprite = null
