@@ -2,6 +2,9 @@ namespace SpriteKind {
     export const gameHub = SpriteKind.create()
     export const mouseMain = SpriteKind.create()
 }
+/**
+ * Braedan Prentice, Martin Clements, Owen Brast
+ */
 function runGameThree () {
 	
 }
@@ -46,12 +49,7 @@ sprites.onOverlap(SpriteKind.mouseMain, SpriteKind.gameHub, function (sprite, ot
 function runGameFour () {
 	
 }
-/**
- * Braedan Prentice, Martin Clements, Owen Brast
- */
-/**
- * On start, our game library pops up. This stores 4 games that we have created and allows you to click in between them. Playing whichever you would enjoy!
- */
+// On start, our game library pops up. This stores 4 games that we have created and allows you to click in between them. Playing whichever you would enjoy!
 function runGameOne () {
     mySprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
@@ -73,7 +71,7 @@ function runGameOne () {
         `, SpriteKind.Player)
 }
 function runGameTwo () {
-    scene.setBackgroundColor(5)
+    scene.setBackgroundColor(1)
 }
 let mySprite: Sprite = null
 let cursorOne: Sprite = null
