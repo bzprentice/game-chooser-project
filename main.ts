@@ -73,7 +73,7 @@ function runGameOne () {
         `, SpriteKind.Player)
 }
 function runGameTwo () {
-	
+    scene.setBackgroundColor(5)
 }
 let mySprite: Sprite = null
 let cursorOne: Sprite = null
